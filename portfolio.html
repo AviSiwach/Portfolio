@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="port.css">
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="banner">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm <span class="highlight"> Avi Siwach</span>, a passionate and creative developer.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a web developer with expertise in HTML, CSS, and JavaScript. I love creating beautiful and responsive websites that provide a great user experience. I'm always eager to learn and explore new technologies to improve my skills and deliver high-quality projects.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn" alt="Project 1">
+       
+        <div class="project-details">
+          <h3>Project 1</h3>
+          <p>Amazon clone website </p>
+          <a href="https://github.com/AviSiwach/amazon-clone.git" class="button">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://imgs.search.brave.com/R-IJTIRKmkEVPBK9__2DkVX8PRpQVqk-mUWeEmg67eM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjcw/OTUwOTE0L3Bob3Rv/L3NjaXNzb3Itcm9j/ay1wYXBlci1jb25j/ZXB0LWdhbWUuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPXJz/WkRFLWRuem5zeV9h/eFdrZGZEN3JwXzNQ/QkVJcmY0MEpHbXpC/R3ZwUmc9" alt="Project 2">
+        <div class="project-details">
+          <h3>Project 2</h3>
+          <p>Rock Paper Scissor game </p>
+          <a href="https://github.com/AviSiwach/RockPaperScissorGame.git" class="button">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://github.com/AviSiwach/FunFood/blob/main/image/funfood%5B12%5D.png?raw=true" alt="Project 3">
+        <div class="project-details">
+          <h3>Project 3</h3>
+          <p>Fun Food , restaurant website</p>
+          <a href="https://github.com/AviSiwach/FunFood.git" class="button">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to get in touch with me. I'm available for freelance work and collaboration.</p>
+      <form id="contact-form" onsubmit="submitForm(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Message" required></textarea>
+        <button type="submit" class="button">Send Message</button>
+      
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023avisiwach. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<script class="js" src="port.js">
+</script>
+
